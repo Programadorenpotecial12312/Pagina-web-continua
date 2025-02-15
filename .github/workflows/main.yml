@@ -17,4 +17,4 @@ jobs:
         run: npm install --global surge
 
       - name: Desplegar en Surge
-        run: surge --project ./ --domain mi-pagina.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge --project ./ --domain Pagina-web-continua.surge.sh --token ${{ secrets.SURGE_TOKEN }}
